@@ -5,7 +5,7 @@ body{
 
 .header {
     background-image: url(104509b9fc7cdccecaccc1.png);
-    height: 100vh;
+    
     background-size: cover;
 
 }
@@ -140,4 +140,45 @@ body{
 .car > a {
     color: rgba(141, 141,141, 1);
     padding-right: 50px;
+}
+
+.lowpart{
+    margin-top: 94px;
+    display: flex;
+    justify-content: center;
+}
+
+.squares {
+    border-radius: 5px;
+    margin-left: 4px;
+    margin-right: 4px;
+    background-color: rgba(255, 255, 255, 0.2);;
+    height: 117px;
+    width: 122px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.squares a {
+    font-family: 'Arial';
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 14px;
+}
+
+.sq_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 32px;
+}
+
+.sq_content img {
+    height: 33px;
+    width: 38px;
+    padding-bottom: 11px;
 }
