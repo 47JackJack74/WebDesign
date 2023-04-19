@@ -93,6 +93,7 @@ body{
 .choose {
     display:flex;
     justify-content: center;
+    padding-right: 0px;
 }
 
 .category {
@@ -131,15 +132,28 @@ body{
     padding-right: 50px;
 }
 .car {
+    display: flex;
+    align-items: center;
     margin-top: 67px;
     margin-left: 13px;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 5px;
-    padding: 10px 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 20px;
 }
 .car > a {
     color: rgba(141, 141,141, 1);
     padding-right: 50px;
+}
+
+.car img {
+    width: 19px;
+    height: 20.7px;
+    padding: 10px 17px;
+    background-color: #7D4E9E;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .lowpart{
@@ -182,3 +196,175 @@ body{
     width: 38px;
     padding-bottom: 11px;
 }
+
+.premium {
+    margin-top: 19px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 11px;
+}
+
+.premium_text {
+    font-family: 'Arial';
+    font-size: 46px;
+    color: #4E4E4E;
+}
+.horizontal {
+    display: flex;
+    justify-content: center;
+    height: 2px;
+}
+
+.horizontal div {
+    height: 2px;
+    width: 6%;
+    background-color: #4E4E4E;
+}
+.update_text {
+    margin-top: 27px;
+    display: flex;
+    justify-content: center;
+}
+.update_text a {
+    font-family: 'Arial';
+    font-size: 20px;
+    color: #4E4E4E;
+}
+
+.tables img {
+    height: 38px;
+    width: 38px;
+    margin-right: 33px;
+}
+.rows img {
+    height: 38px;
+    width: 38px;
+}
+
+.tables_rows {
+    display: flex;
+    justify-content: end;
+    margin-right: 15%;
+}
+.popular_update {
+    margin-top: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product_map {
+    width: 17%;
+    aspect-ratio: 9/16;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #fff;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+}
+.product_img {
+    width: 100%;
+    padding-top: 17px;
+}
+
+.star_circle {
+    max-width: 8em;
+    margin-left: auto;
+    margin-right: 0.6em;
+    position: relative;
+    background-color: #fff;
+    height: 7%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    z-index: 2;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+    margin-top: -58%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.star_circle img {
+    width: 70%;
+}
+.product_map_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 12%;
+    aspect-ratio: 1/1;
+    margin-top: 79%;
+}
+.icons_znakomstva, .icons_nedvig, .icons_prod {
+    padding: 10px 10px;
+    height: 80px;
+    aspect-ratio: 1/1;
+    background: #7D4E9E;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8.78901px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrow {
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    margin-left: 35px;
+    margin-right: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrow img {
+    position: relative;
+    z-index: 2;
+}
+.text_content {
+    margin-top: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.date {
+    margin-top: 12px;
+    margin-bottom: 0px;
+    color: #676767;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.4569px;
+}
+.header_content {
+    margin-top: 11px;
+    margin-bottom: 0px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31.6404px;
+}
+.description_content {
+    width: 80%;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23.7303px;
+    color: #8D8D8D;
+}
+.price_content {
+    margin-top: 8px;
+    margin-bottom: 10px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23.7303px;
+}
+
+
