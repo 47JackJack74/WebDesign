@@ -36,7 +36,8 @@ body{
 }
 
 .right-side {
-    margin-left: 15%;
+    margin-right: 10%;
+    margin-left: auto;
     justify-content: end;
     display: flex;
     align-items: center;
@@ -243,8 +244,8 @@ body{
 
 .tables_rows {
     display: flex;
-    justify-content: end;
-    margin-right: 15%;
+    margin-left: auto;
+    margin-right: 6%;
 }
 .popular_update {
     margin-top: 112px;
@@ -254,7 +255,8 @@ body{
     margin-bottom: 100px;
 }
 .product_map {
-    width: 17%;
+    margin-top: 1%;
+    width: 35vh;
     margin-left: 15px;
     margin-right: 15px;
     background-color: #fff;
@@ -262,6 +264,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 1%;
 }
 .product_img {
     width: 100%;
@@ -274,7 +277,7 @@ body{
     margin-right: 0.6em;
     position: relative;
     background-color: #fff;
-    height: 7%;
+    height: 40px;
     aspect-ratio: 1/1;
     border-radius: 50%;
     z-index: 2;
@@ -304,20 +307,24 @@ body{
     z-index: 2;
 }
 .icons_znakomstva, .icons_nedvig, .icons_prod {
-    position: absolute;
-    height: 10%;
+    position: sticky;
+    height: 10vh;
     border-radius: 50%;
     aspect-ratio: 1/1;
     background: #7D4E9E;
     box-shadow: 0px 0px 8.78901px rgba(0, 0, 0, 0.5);
-    margin-top: 8.8%;
+    margin-top: 9.5vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.product_map_content {
+    height: 100%;
+    display: flex;
 
+}
 .text_content {
-    padding-top: 55%;
+    margin-top: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -357,4 +364,214 @@ body{
     margin-bottom: 0px;
 }
 
+.promotion {
+    background-image: url(stol-noutbuk-ruchka-bloknot-rastenie-ruka-chashka-kofe-pena\ 1.png);
+    background-size: cover;
+}
+.promotion_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.promotion_text > a {
+    margin-top: 65px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.white-line {
+    height: 2px;
+    width: 6%;
+    background-color: #fff;
+    margin-bottom: 85px;
+}
+.information {
+    display: flex;
+    justify-content: center;
+}
+.information_card {
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 180px;
+}
+.information_card > img {
+    width: 20%;
+    aspect-ratio: 1/1;
+    margin-bottom: 8px;
+}
+.information_header {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+.information_description {
+    text-align: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+}
+.last_update {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.up_text_last_update {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.last_update_container {
+    width: 85%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+.last_update_row {
 
+    width: 100%;
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    margin-bottom: 1%;
+}
+.map_container iframe {
+    width: 100%;
+    aspect-ratio: 4/1;
+}
+.map_container {
+    margin-bottom: 40px;
+}
+.vse_objavlenija {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.vse_objavlenija_btn {
+    display: flex;
+    justify-content: center;
+    background: #7D4E9E;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+.widgets {
+    background-color: #565656;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.widget {
+    margin-left: 4%;
+    margin-right: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.widget_header {
+    margin-top: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.widget_description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.second_footer {
+    width: 100%;
+    aspect-ratio: 20/1;
+    background: #2F2F2F;
+    display: flex;
+    align-items: center;
+}
+.logo_footer{
+    margin-right: auto;
+    margin-left: 6%;
+    display: flex;
+    align-items: center;
+    width: 10%;
+}
+.logo-img {
+    height: 60px;
+}
+.footer_contact {
+    margin-left: 46px;
+    margin-right: 46px;
+    display: flex;
+    align-items: center;
+}
+.footer_contact a {
+    margin-left: 2px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+}
+.social_media {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6%;
+}
+.social_media img {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.third_footer {
+    width: 100%;
+    aspect-ratio: 22/1;
+    background: #202020;
+    display: flex;
+    align-items: center;
+}
+.third_footer a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+}
+.third_footer a:first-child {
+    margin-left: 6%;
+    margin-right: auto;
+}
+.third_footer a:last-child {
+    margin-right: 6%;
+}
